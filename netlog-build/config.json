@@ -1,0 +1,13 @@
+{
+    "logging": {
+        "level": "info",
+        "file": "/var/log/networklog.log"
+    },
+    "network": {
+        "interfaces": ["eth0", "wlan0"],
+        "monitor_interval": 60
+    },
+    "report": {
+        "output_dir": "/var/reports/networklog"
+    }
+}
