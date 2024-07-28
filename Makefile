@@ -17,15 +17,16 @@ clean:
 install: $(TARGET)
 	install -d /usr/local/bin
 	install $(BIN_DIR)/$(TARGET) /usr/local/bin
+	install $(BIN_DIR)/networklog /usr/local/bin
 
 test: $(TARGET)
-	chmod +x tests/test_networklog.sh
-	./tests/test_networklog.sh
+	chmod +x scripts/test_networklog.sh
+	./scripts/test_networklog.sh
 
 # Additional rules to install the bash script and other files
 install-scripts:
 	install -d /usr/local/bin
-	install bin/networklog.bash /usr/local/bin/networklog.bash
+	install $(BIN_DIR)/networklog.bash /usr/local/bin/networklog.bash
 	install scripts/install.sh /usr/local/bin/install_networklog.sh
 
 install-all: install install-scripts
