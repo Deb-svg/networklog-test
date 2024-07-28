@@ -33,7 +33,7 @@ Section:
 pip install networklog
 ```
 
-## Install from Source
+## InstallfromSource
 1. Clone the repository:
 
    ```bash
@@ -88,7 +88,7 @@ network:
     - wlan0
 ```
 
-## Building from Source
+## BuildingfromSource
 
 1. Clone the repository:
    
