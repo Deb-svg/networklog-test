@@ -28,8 +28,8 @@ To install NetworkLog using the provided install script, run:
 1. Clone the Repository
 
    ```sh
-   git clone https://github.com/yourusername/networklog.git
-   cd networklog
+   git clone https://github.com/Deb-svg/networklog-test.git
+   cd networklog-test
    ```
    
 2. Build the Project
