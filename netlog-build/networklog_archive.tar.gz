@@ -1,0 +1,5 @@
+cd netlog-build
+touch placeholder.txt
+tar -czvf networklog_archive.tar.gz placeholder.txt
+rm placeholder.txt
+cd ..
