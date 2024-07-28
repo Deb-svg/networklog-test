@@ -10,8 +10,6 @@ install_dependencies() {
 # Function to set up the environment
 setup_environment() {
     echo "Setting up the environment..."
-    # Add commands to set up the environment here
-    # For example, creating necessary directories, setting permissions, etc.
     mkdir -p /usr/local/networklog
     cp networklog.sh /usr/local/networklog/
     chmod +x /usr/local/networklog/networklog.sh
