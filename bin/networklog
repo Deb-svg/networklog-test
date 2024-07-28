@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Wrapper script for networklog commands
+
+case "$1" in
+    start)
+        /usr/local/bin/networklog start
+        ;;
+    stop)
+        /usr/local/bin/networklog stop
+        ;;
+    log)
+        /usr/local/bin/networklog log
+        ;;
+    help)
+        /usr/local/bin/networklog help
+        ;;
+    status)
+        /usr/local/bin/networklog status
+        ;;
+    check)
+        /usr/local/bin/networklog check
+        ;;
+    list-interfaces)
+        /usr/local/bin/networklog list-interfaces
+        ;;
+    stats)
+        /usr/local/bin/networklog stats
+        ;;
+    monitor)
+        /usr/local/bin/networklog monitor
+        ;;
+    report)
+        /usr/local/bin/networklog report
+        ;;
+    archive)
+        /usr/local/bin/networklog archive
+        ;;
+    *)
+        echo "Unknown command: $1"
+        echo "Use 'networklog help' to see available commands."
+        exit 1
+        ;;
+esac
