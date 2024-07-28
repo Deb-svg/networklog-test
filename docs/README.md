@@ -111,7 +111,8 @@ To run the tests for NetworkLog:
    
 This will execute the `test_networklog.sh` script and display the results of the tests.
 
-Contributing
+## Contributing
+
 We welcome contributions! Please follow these steps to contribute:
 
 1. Fork the repository on GitHub.
@@ -123,6 +124,6 @@ We welcome contributions! Please follow these steps to contribute:
 
 For detailed guidelines,  press [CONTRIBUTING](c.md).
 
-License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
