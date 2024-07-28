@@ -5,10 +5,10 @@ NetworkLog is a comprehensive tool for logging and monitoring network activity. 
 Section:
 - [Features](#Features)
 - [Installation](#Installation)
-- [Install from Source](#Install from Source)
+- [Install from Source](#InstallfromSource)
 - [Usage](#Usage)
 - [Configuration](#Configuration)
-- [Building from Source](#Building from Source)
+- [Building from Source](#BuildingfromSource)
 - [Contributing](#Contributing)
 - [Acknowledgements](#Acknowledgements)
 
